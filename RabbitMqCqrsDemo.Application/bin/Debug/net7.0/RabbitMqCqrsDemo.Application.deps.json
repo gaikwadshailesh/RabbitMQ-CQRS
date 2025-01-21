@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "RabbitMqCqrsDemo.Application/1.0.0": {
+        "dependencies": {
+          "RabbitMqCqrsDemo.Domain": "1.0.0"
+        },
+        "runtime": {
+          "RabbitMqCqrsDemo.Application.dll": {}
+        }
+      },
+      "RabbitMqCqrsDemo.Domain/1.0.0": {
+        "runtime": {
+          "RabbitMqCqrsDemo.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RabbitMqCqrsDemo.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RabbitMqCqrsDemo.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

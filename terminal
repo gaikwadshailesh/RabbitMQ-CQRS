@@ -1,0 +1,18 @@
+cd ..
+dotnet new sln -n RabbitMqCqrsDemo
+dotnet new classlib -n RabbitMqCqrsDemo.Domain
+dotnet new classlib -n RabbitMqCqrsDemo.Application
+dotnet new classlib -n RabbitMqCqrsDemo.Infrastructure
+dotnet new webapi -n RabbitMqCqrsDemo.Api
+dotnet sln add RabbitMqCqrsDemo.Domain/RabbitMqCqrsDemo.Domain.csproj
+dotnet sln add RabbitMqCqrsDemo.Application/RabbitMqCqrsDemo.Application.csproj
+dotnet sln add RabbitMqCqrsDemo.Infrastructure/RabbitMqCqrsDemo.Infrastructure.csproj
+dotnet sln add RabbitMqCqrsDemo.Api/RabbitMqCqrsDemo.Api.csproj
+dotnet add RabbitMqCqrsDemo.Infrastructure/RabbitMqCqrsDemo.Infrastructure.csproj package RabbitMQ.Client --version 6.8.1
+dotnet add RabbitMqCqrsDemo.Api/RabbitMqCqrsDemo.Api.csproj package Swashbuckle.AspNetCore
+dotnet add RabbitMqCqrsDemo.Application/RabbitMqCqrsDemo.Application.csproj reference RabbitMqCqrsDemo.Domain/RabbitMqCqrsDemo.Domain.csproj
+dotnet add RabbitMqCqrsDemo.Infrastructure/RabbitMqCqrsDemo.Infrastructure.csproj reference RabbitMqCqrsDemo.Application/RabbitMqCqrsDemo.Application.csproj
+dotnet add RabbitMqCqrsDemo.Api/RabbitMqCqrsDemo.Api.csproj reference RabbitMqCqrsDemo.Application/RabbitMqCqrsDemo.Application.csproj RabbitMqCqrsDemo.Infrastructure/RabbitMqCqrsDemo.Infrastructure.csproj
+dotnet clean
+dotnet restore
+dotnet build 

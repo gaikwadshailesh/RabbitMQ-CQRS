@@ -1,0 +1,17 @@
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Infrastructure\obj\Debug\net7.0\RabbitMqCqrsDemo.Infrastructure.csproj.AssemblyReference.cache
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Infrastructure\obj\Debug\net7.0\RabbitMqCqrsDemo.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Infrastructure\obj\Debug\net7.0\RabbitMqCqrsDemo.Infrastructure.AssemblyInfoInputs.cache
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Infrastructure\obj\Debug\net7.0\RabbitMqCqrsDemo.Infrastructure.AssemblyInfo.cs
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Infrastructure\obj\Debug\net7.0\RabbitMqCqrsDemo.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Infrastructure\bin\Debug\net7.0\RabbitMqCqrsDemo.Infrastructure.deps.json
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Infrastructure\bin\Debug\net7.0\RabbitMqCqrsDemo.Infrastructure.dll
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Infrastructure\bin\Debug\net7.0\RabbitMqCqrsDemo.Infrastructure.pdb
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Infrastructure\bin\Debug\net7.0\RabbitMqCqrsDemo.Application.dll
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Infrastructure\bin\Debug\net7.0\RabbitMqCqrsDemo.Domain.dll
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Infrastructure\bin\Debug\net7.0\RabbitMqCqrsDemo.Application.pdb
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Infrastructure\bin\Debug\net7.0\RabbitMqCqrsDemo.Domain.pdb
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Infrastructure\obj\Debug\net7.0\RabbitMqCqrsDemo.Infrastructure.csproj.CopyComplete
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Infrastructure\obj\Debug\net7.0\RabbitMqCqrsDemo.Infrastructure.dll
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Infrastructure\obj\Debug\net7.0\refint\RabbitMqCqrsDemo.Infrastructure.dll
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Infrastructure\obj\Debug\net7.0\RabbitMqCqrsDemo.Infrastructure.pdb
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Infrastructure\obj\Debug\net7.0\ref\RabbitMqCqrsDemo.Infrastructure.dll

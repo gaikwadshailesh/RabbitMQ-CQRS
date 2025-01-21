@@ -1,0 +1,12 @@
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Domain\bin\Debug\net7.0\RabbitMqCqrsDemo.Domain.deps.json
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Domain\bin\Debug\net7.0\RabbitMqCqrsDemo.Domain.dll
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Domain\bin\Debug\net7.0\RabbitMqCqrsDemo.Domain.pdb
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Domain\obj\Debug\net7.0\RabbitMqCqrsDemo.Domain.csproj.AssemblyReference.cache
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Domain\obj\Debug\net7.0\RabbitMqCqrsDemo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Domain\obj\Debug\net7.0\RabbitMqCqrsDemo.Domain.AssemblyInfoInputs.cache
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Domain\obj\Debug\net7.0\RabbitMqCqrsDemo.Domain.AssemblyInfo.cs
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Domain\obj\Debug\net7.0\RabbitMqCqrsDemo.Domain.csproj.CoreCompileInputs.cache
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Domain\obj\Debug\net7.0\RabbitMqCqrsDemo.Domain.dll
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Domain\obj\Debug\net7.0\refint\RabbitMqCqrsDemo.Domain.dll
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Domain\obj\Debug\net7.0\RabbitMqCqrsDemo.Domain.pdb
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Domain\obj\Debug\net7.0\ref\RabbitMqCqrsDemo.Domain.dll

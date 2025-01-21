@@ -1,0 +1,15 @@
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Application\bin\Debug\net7.0\RabbitMqCqrsDemo.Application.deps.json
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Application\bin\Debug\net7.0\RabbitMqCqrsDemo.Application.dll
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Application\bin\Debug\net7.0\RabbitMqCqrsDemo.Application.pdb
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Application\bin\Debug\net7.0\RabbitMqCqrsDemo.Domain.dll
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Application\bin\Debug\net7.0\RabbitMqCqrsDemo.Domain.pdb
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Application\obj\Debug\net7.0\RabbitMqCqrsDemo.Application.csproj.AssemblyReference.cache
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Application\obj\Debug\net7.0\RabbitMqCqrsDemo.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Application\obj\Debug\net7.0\RabbitMqCqrsDemo.Application.AssemblyInfoInputs.cache
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Application\obj\Debug\net7.0\RabbitMqCqrsDemo.Application.AssemblyInfo.cs
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Application\obj\Debug\net7.0\RabbitMqCqrsDemo.Application.csproj.CoreCompileInputs.cache
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Application\obj\Debug\net7.0\RabbitMqCqrsDemo.Application.csproj.CopyComplete
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Application\obj\Debug\net7.0\RabbitMqCqrsDemo.Application.dll
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Application\obj\Debug\net7.0\refint\RabbitMqCqrsDemo.Application.dll
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Application\obj\Debug\net7.0\RabbitMqCqrsDemo.Application.pdb
+D:\Shailesh\Technical\GithubContributions\cursor\CQRS\RabbitMqCqrsDemo.Application\obj\Debug\net7.0\ref\RabbitMqCqrsDemo.Application.dll
