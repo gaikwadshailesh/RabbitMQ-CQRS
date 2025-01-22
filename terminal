@@ -15,4 +15,25 @@ dotnet add RabbitMqCqrsDemo.Infrastructure/RabbitMqCqrsDemo.Infrastructure.cspro
 dotnet add RabbitMqCqrsDemo.Api/RabbitMqCqrsDemo.Api.csproj reference RabbitMqCqrsDemo.Application/RabbitMqCqrsDemo.Application.csproj RabbitMqCqrsDemo.Infrastructure/RabbitMqCqrsDemo.Infrastructure.csproj
 dotnet clean
 dotnet restore
-dotnet build 
+dotnet build
+
+# First, check the status of your changes
+git status
+
+# Stage all changes (including the modified RabbitMQConsumer.cs)
+git add .
+
+# Create a commit with your changes
+git commit -m "Add error handling and logging to RabbitMQ consumer"
+
+# Push the changes to GitHub
+git push origin main
+
+# Stage the changed file
+git add RabbitMqCqrsDemo.Infrastructure/RabbitMQ/RabbitMQConsumer.cs
+
+# Commit with a descriptive message
+git commit -m "Add error handling and logging to RabbitMQ consumer"
+
+# Push to GitHub
+git push origin main 
