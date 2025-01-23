@@ -1,39 +1,21 @@
-cd ..
-dotnet new sln -n RabbitMqCqrsDemo
-dotnet new classlib -n RabbitMqCqrsDemo.Domain
-dotnet new classlib -n RabbitMqCqrsDemo.Application
-dotnet new classlib -n RabbitMqCqrsDemo.Infrastructure
-dotnet new webapi -n RabbitMqCqrsDemo.Api
-dotnet sln add RabbitMqCqrsDemo.Domain/RabbitMqCqrsDemo.Domain.csproj
-dotnet sln add RabbitMqCqrsDemo.Application/RabbitMqCqrsDemo.Application.csproj
-dotnet sln add RabbitMqCqrsDemo.Infrastructure/RabbitMqCqrsDemo.Infrastructure.csproj
-dotnet sln add RabbitMqCqrsDemo.Api/RabbitMqCqrsDemo.Api.csproj
-dotnet add RabbitMqCqrsDemo.Infrastructure/RabbitMqCqrsDemo.Infrastructure.csproj package RabbitMQ.Client --version 6.8.1
-dotnet add RabbitMqCqrsDemo.Api/RabbitMqCqrsDemo.Api.csproj package Swashbuckle.AspNetCore
-dotnet add RabbitMqCqrsDemo.Application/RabbitMqCqrsDemo.Application.csproj reference RabbitMqCqrsDemo.Domain/RabbitMqCqrsDemo.Domain.csproj
-dotnet add RabbitMqCqrsDemo.Infrastructure/RabbitMqCqrsDemo.Infrastructure.csproj reference RabbitMqCqrsDemo.Application/RabbitMqCqrsDemo.Application.csproj
-dotnet add RabbitMqCqrsDemo.Api/RabbitMqCqrsDemo.Api.csproj reference RabbitMqCqrsDemo.Application/RabbitMqCqrsDemo.Application.csproj RabbitMqCqrsDemo.Infrastructure/RabbitMqCqrsDemo.Infrastructure.csproj
+# Add required logging packages to Infrastructure project
+dotnet add RabbitMqCqrsDemo.Infrastructure/RabbitMqCqrsDemo.Infrastructure.csproj package Microsoft.Extensions.Logging.Abstractions
+dotnet add RabbitMqCqrsDemo.Infrastructure/RabbitMqCqrsDemo.Infrastructure.csproj package Microsoft.Extensions.Logging
+dotnet add RabbitMqCqrsDemo.Infrastructure/RabbitMqCqrsDemo.Infrastructure.csproj package Microsoft.Extensions.DependencyInjection.Abstractions
+
+# Build and verify the solution
 dotnet clean
 dotnet restore
 dotnet build
 
-# First, check the status of your changes
+# Check Git status
 git status
 
-# Stage all changes (including the modified RabbitMQConsumer.cs)
+# Stage all changes (not github add, but git add)
 git add .
 
-# Create a commit with your changes
-git commit -m "Add error handling and logging to RabbitMQ consumer"
-
-# Push the changes to GitHub
-git push origin main
-
-# Stage the changed file
-git add RabbitMqCqrsDemo.Infrastructure/RabbitMQ/RabbitMQConsumer.cs
-
-# Commit with a descriptive message
-git commit -m "Add error handling and logging to RabbitMQ consumer"
+# Commit changes
+git commit -m "Simplify RabbitMQ consumer logging"
 
 # Push to GitHub
 git push origin main 

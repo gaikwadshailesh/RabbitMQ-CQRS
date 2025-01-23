@@ -3,7 +3,6 @@ using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using RabbitMqCqrsDemo.Application.Commands;
 using RabbitMqCqrsDemo.Application.Handlers;
-using Microsoft.Extensions.Logging;
 
 namespace RabbitMqCqrsDemo.Infrastructure.RabbitMQ;
 
@@ -12,12 +11,10 @@ public class RabbitMQConsumer : IDisposable
     private readonly IConnection _connection;
     private readonly IModel _channel;
     private readonly ProcessMessageCommandHandler _commandHandler;
-    private readonly ILogger<RabbitMQConsumer> _logger;
 
-    public RabbitMQConsumer(ProcessMessageCommandHandler commandHandler, ILogger<RabbitMQConsumer> logger, string hostName = "localhost")
+    public RabbitMQConsumer(ProcessMessageCommandHandler commandHandler, string hostName = "localhost")
     {
         _commandHandler = commandHandler;
-        _logger = logger;
         
         try
         {
@@ -26,11 +23,11 @@ public class RabbitMQConsumer : IDisposable
             _channel = _connection.CreateModel();
             
             _channel.QueueDeclare("message_queue", durable: true, exclusive: false, autoDelete: false);
-            _logger.LogInformation("RabbitMQ connection established successfully");
+            Console.WriteLine("RabbitMQ connection established successfully");
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Failed to establish RabbitMQ connection");
+            Console.WriteLine($"Failed to establish RabbitMQ connection: {ex.Message}");
             throw;
         }
     }
@@ -46,17 +43,17 @@ public class RabbitMQConsumer : IDisposable
                 var body = ea.Body.ToArray();
                 var message = Encoding.UTF8.GetString(body);
 
-                _logger.LogInformation("Received message: {Message}", message);
+                Console.WriteLine($"Received message: {message}");
 
                 var command = new ProcessMessageCommand { Content = message };
                 await _commandHandler.HandleAsync(command);
 
                 _channel.BasicAck(ea.DeliveryTag, false);
-                _logger.LogInformation("Message processed successfully");
+                Console.WriteLine("Message processed successfully");
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error processing message");
+                Console.WriteLine($"Error processing message: {ex.Message}");
                 _channel.BasicNack(ea.DeliveryTag, false, true);
             }
         };
@@ -70,6 +67,6 @@ public class RabbitMQConsumer : IDisposable
     {
         _channel?.Dispose();
         _connection?.Dispose();
-        _logger.LogInformation("RabbitMQ connection closed");
+        Console.WriteLine("RabbitMQ connection closed");
     }
 } 
